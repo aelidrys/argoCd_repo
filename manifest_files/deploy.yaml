@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployment_01
+  name: deployment-01
   labels:
-    app: deployment_01
+    app: deployment-01
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: deployment_01
+      app: deployment-01
   template:
     metadata:
       labels:
-        app: deployment_01
+        app: deployment-01
     spec:
       containers:
-      - name: deployment_01
+      - name: deployment-01
         image: elidrydocker/node-k8s:latest
         ports:
         - containerPort: 3000
