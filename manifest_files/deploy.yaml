@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: deployment-01
-        image: elidrydocker/node-k8s:latest
+        image: nginx:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 80

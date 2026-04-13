@@ -5,8 +5,9 @@ metadata:
 spec:
   selector:
     app: deployment-01
+  type: NodePort
   ports:
     - protocol: TCP
-      type: NodePort
       port: 8085
-      targetPort: 3000
+      targetPort: 80
+      nodePort: 30085
