@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: service-01
+  namespace: dev
 spec:
   selector:
     app: deployment-01
