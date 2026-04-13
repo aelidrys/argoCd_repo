@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: deployment-01
-        image: wil42/playground:v1
+        image: elidrydoker/node-k8s:latest
         ports:
-        - containerPort: 80
+        - containerPort: 3000
