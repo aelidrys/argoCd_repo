@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: deployment-01
-        image: elidrydoker/node-k8s:latest
+        image: elidrydoker/node-k8s:1.2.0
         ports:
         - containerPort: 3000
